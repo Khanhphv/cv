@@ -1,0 +1,19 @@
+.main-content{
+    margin-top: 30px;
+    background: #e3cca6;
+    min-height: 900px;
+    display: flex;
+    padding: 20px 0;
+    box-shadow: 20px 20px 30px #1e1b1b;
+    .content{
+        float: left;
+    }
+    .left{
+        width: 40%
+    }
+    .right{
+        width: 60%;
+        background: whitesmoke;
+        box-shadow: 3px 4px 12px #201818
+    }
+}

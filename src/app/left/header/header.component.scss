@@ -1,0 +1,25 @@
+.main-content{
+    .title{
+        background: #cf483f;
+        width: 100%;
+        padding: 12px;
+        display: flex;
+        color: #fff;
+        span {
+          padding-left: 15px;
+          font-size: 22px;
+        }
+        span, i{
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+        }
+        i::before{
+            font-size: 30px;
+        }
+        
+    }
+    .content{
+        padding: 10px 15px;
+    }
+}
